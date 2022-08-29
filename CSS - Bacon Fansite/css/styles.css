@@ -1,0 +1,51 @@
+/*******************************TAG SELECTORS*******************************/
+
+body {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color: #dbbf1e;
+    font-size: 100px;
+}
+
+h3 {
+    color: red;
+}
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: lightgrey;
+    border-width: 5px;
+    width: 8%;
+
+}
+
+img:hover {
+    background-color: aquamarine;
+}
+
+/*******************************CLASS SELECTORS*******************************/
+
+.cheese {
+    background-color: brown;
+    padding: 20px;
+}
+
+.avocado {
+    background-color: darkgreen;
+    padding: 20px;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+
+/*******************************ID SELECTORS*******************************/
+#heading {
+    color: #dbbf1e;
+    font-size: 80px;
+}
