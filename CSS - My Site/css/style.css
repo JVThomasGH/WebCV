@@ -1,9 +1,37 @@
 /*******************************TAG SELECTORS*******************************/
-
 body {
-  background-color: blue;
+  margin: 0;
+}
+
+h1 {
+  color: #a5c9ca;
+}
+
+p {
+  color: #a5c9ca;
 }
 
 /*******************************CLASS SELECTORS*******************************/
+.top-container {
+  background-color: darkolivegreen;
+  border: solid 10px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+.middle-container {
+  background-color: aquamarine;
+  border: solid 20px;
+  height: 200px;
+  width: 200px;
+  margin-left: 260px;
+}
+.bottom-container {
+  background-color: firebrick;
+  border: solid 10px;
+  height: 200px;
+  width: 200px;
+  margin-left: 500px;
+}
 
 /*******************************ID SELECTORS*******************************/
