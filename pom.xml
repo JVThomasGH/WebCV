@@ -1,5 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -34,8 +35,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>20</source>
+          <target>20</target>
         </configuration>
       </plugin>
 
@@ -46,7 +47,7 @@
         </configuration>
       </plugin>
 
-        </plugins>
+    </plugins>
 
     <pluginManagement>
       <plugins>
@@ -80,7 +81,6 @@
           <version>2.4</version>
         </plugin>
 
-      
 
         <plugin>
           <artifactId>maven-surefire-report-plugin</artifactId>
