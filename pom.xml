@@ -11,7 +11,6 @@
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
-
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
@@ -35,8 +34,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>20</source>
-          <target>20</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 
